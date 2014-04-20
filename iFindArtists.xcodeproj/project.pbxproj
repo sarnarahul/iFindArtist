@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166B55D119048F6E00F5C650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D019048F6E00F5C650 /* Foundation.framework */; };
+		166B55D319048F6E00F5C650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D219048F6E00F5C650 /* CoreGraphics.framework */; };
+		166B55D519048F6E00F5C650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D419048F6E00F5C650 /* UIKit.framework */; };
+		166B55D719048F6E00F5C650 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D619048F6E00F5C650 /* CoreData.framework */; };
+		166B55DD19048F6E00F5C650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166B55DB19048F6E00F5C650 /* InfoPlist.strings */; };
+		166B55DF19048F6E00F5C650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B55DE19048F6E00F5C650 /* main.m */; };
+		166B55E319048F6E00F5C650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B55E219048F6E00F5C650 /* AppDelegate.m */; };
+		166B55E619048F6E00F5C650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166B55E419048F6E00F5C650 /* Main.storyboard */; };
+		166B55E919048F6E00F5C650 /* iFindArtists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 166B55E719048F6E00F5C650 /* iFindArtists.xcdatamodeld */; };
+		166B55EC19048F6E00F5C650 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B55EB19048F6E00F5C650 /* MainViewController.m */; };
+		166B55EF19048F6E00F5C650 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B55EE19048F6E00F5C650 /* FlipsideViewController.m */; };
+		166B55F119048F6E00F5C650 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166B55F019048F6E00F5C650 /* Images.xcassets */; };
+		166B55F819048F6E00F5C650 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55F719048F6E00F5C650 /* XCTest.framework */; };
+		166B55F919048F6E00F5C650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D019048F6E00F5C650 /* Foundation.framework */; };
+		166B55FA19048F6E00F5C650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D419048F6E00F5C650 /* UIKit.framework */; };
+		166B55FB19048F6E00F5C650 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D619048F6E00F5C650 /* CoreData.framework */; };
+		166B560319048F6F00F5C650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166B560119048F6F00F5C650 /* InfoPlist.strings */; };
+		166B560519048F6F00F5C650 /* iFindArtistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B560419048F6F00F5C650 /* iFindArtistsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166B55FC19048F6F00F5C650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166B55C519048F6E00F5C650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166B55CC19048F6E00F5C650;
+			remoteInfo = iFindArtists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166B55CD19048F6E00F5C650 /* iFindArtists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFindArtists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166B55D019048F6E00F5C650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		166B55D219048F6E00F5C650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		166B55D419048F6E00F5C650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		166B55D619048F6E00F5C650 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		166B55DA19048F6E00F5C650 /* iFindArtists-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFindArtists-Info.plist"; sourceTree = "<group>"; };
+		166B55DC19048F6E00F5C650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		166B55DE19048F6E00F5C650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166B55E019048F6E00F5C650 /* iFindArtists-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFindArtists-Prefix.pch"; sourceTree = "<group>"; };
+		166B55E119048F6E00F5C650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166B55E219048F6E00F5C650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166B55E519048F6E00F5C650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166B55E819048F6E00F5C650 /* iFindArtists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFindArtists.xcdatamodel; sourceTree = "<group>"; };
+		166B55EA19048F6E00F5C650 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		166B55EB19048F6E00F5C650 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		166B55ED19048F6E00F5C650 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		166B55EE19048F6E00F5C650 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		166B55F019048F6E00F5C650 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		166B55F619048F6E00F5C650 /* iFindArtistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFindArtistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166B55F719048F6E00F5C650 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		166B560019048F6F00F5C650 /* iFindArtistsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFindArtistsTests-Info.plist"; sourceTree = "<group>"; };
+		166B560219048F6F00F5C650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		166B560419048F6F00F5C650 /* iFindArtistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFindArtistsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166B55CA19048F6E00F5C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B55D319048F6E00F5C650 /* CoreGraphics.framework in Frameworks */,
+				166B55D719048F6E00F5C650 /* CoreData.framework in Frameworks */,
+				166B55D519048F6E00F5C650 /* UIKit.framework in Frameworks */,
+				166B55D119048F6E00F5C650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B55F319048F6E00F5C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B55F819048F6E00F5C650 /* XCTest.framework in Frameworks */,
+				166B55FB19048F6E00F5C650 /* CoreData.framework in Frameworks */,
+				166B55FA19048F6E00F5C650 /* UIKit.framework in Frameworks */,
+				166B55F919048F6E00F5C650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166B55C419048F6E00F5C650 = {
+			isa = PBXGroup;
+			children = (
+				166B55D819048F6E00F5C650 /* iFindArtists */,
+				166B55FE19048F6F00F5C650 /* iFindArtistsTests */,
+				166B55CF19048F6E00F5C650 /* Frameworks */,
+				166B55CE19048F6E00F5C650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166B55CE19048F6E00F5C650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166B55CD19048F6E00F5C650 /* iFindArtists.app */,
+				166B55F619048F6E00F5C650 /* iFindArtistsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166B55CF19048F6E00F5C650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166B55D019048F6E00F5C650 /* Foundation.framework */,
+				166B55D219048F6E00F5C650 /* CoreGraphics.framework */,
+				166B55D419048F6E00F5C650 /* UIKit.framework */,
+				166B55D619048F6E00F5C650 /* CoreData.framework */,
+				166B55F719048F6E00F5C650 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		166B55D819048F6E00F5C650 /* iFindArtists */ = {
+			isa = PBXGroup;
+			children = (
+				166B55E119048F6E00F5C650 /* AppDelegate.h */,
+				166B55E219048F6E00F5C650 /* AppDelegate.m */,
+				166B55E419048F6E00F5C650 /* Main.storyboard */,
+				166B55EA19048F6E00F5C650 /* MainViewController.h */,
+				166B55EB19048F6E00F5C650 /* MainViewController.m */,
+				166B55ED19048F6E00F5C650 /* FlipsideViewController.h */,
+				166B55EE19048F6E00F5C650 /* FlipsideViewController.m */,
+				166B55F019048F6E00F5C650 /* Images.xcassets */,
+				166B55E719048F6E00F5C650 /* iFindArtists.xcdatamodeld */,
+				166B55D919048F6E00F5C650 /* Supporting Files */,
+			);
+			path = iFindArtists;
+			sourceTree = "<group>";
+		};
+		166B55D919048F6E00F5C650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166B55DA19048F6E00F5C650 /* iFindArtists-Info.plist */,
+				166B55DB19048F6E00F5C650 /* InfoPlist.strings */,
+				166B55DE19048F6E00F5C650 /* main.m */,
+				166B55E019048F6E00F5C650 /* iFindArtists-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166B55FE19048F6F00F5C650 /* iFindArtistsTests */ = {
+			isa = PBXGroup;
+			children = (
+				166B560419048F6F00F5C650 /* iFindArtistsTests.m */,
+				166B55FF19048F6F00F5C650 /* Supporting Files */,
+			);
+			path = iFindArtistsTests;
+			sourceTree = "<group>";
+		};
+		166B55FF19048F6F00F5C650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166B560019048F6F00F5C650 /* iFindArtistsTests-Info.plist */,
+				166B560119048F6F00F5C650 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166B55CC19048F6E00F5C650 /* iFindArtists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166B560819048F6F00F5C650 /* Build configuration list for PBXNativeTarget "iFindArtists" */;
+			buildPhases = (
+				166B55C919048F6E00F5C650 /* Sources */,
+				166B55CA19048F6E00F5C650 /* Frameworks */,
+				166B55CB19048F6E00F5C650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFindArtists;
+			productName = iFindArtists;
+			productReference = 166B55CD19048F6E00F5C650 /* iFindArtists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166B55F519048F6E00F5C650 /* iFindArtistsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166B560B19048F6F00F5C650 /* Build configuration list for PBXNativeTarget "iFindArtistsTests" */;
+			buildPhases = (
+				166B55F219048F6E00F5C650 /* Sources */,
+				166B55F319048F6E00F5C650 /* Frameworks */,
+				166B55F419048F6E00F5C650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166B55FD19048F6F00F5C650 /* PBXTargetDependency */,
+			);
+			name = iFindArtistsTests;
+			productName = iFindArtistsTests;
+			productReference = 166B55F619048F6E00F5C650 /* iFindArtistsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166B55C519048F6E00F5C650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rahul Sarna";
+				TargetAttributes = {
+					166B55F519048F6E00F5C650 = {
+						TestTargetID = 166B55CC19048F6E00F5C650;
+					};
+				};
+			};
+			buildConfigurationList = 166B55C819048F6E00F5C650 /* Build configuration list for PBXProject "iFindArtists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166B55C419048F6E00F5C650;
+			productRefGroup = 166B55CE19048F6E00F5C650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166B55CC19048F6E00F5C650 /* iFindArtists */,
+				166B55F519048F6E00F5C650 /* iFindArtistsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166B55CB19048F6E00F5C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B55F119048F6E00F5C650 /* Images.xcassets in Resources */,
+				166B55DD19048F6E00F5C650 /* InfoPlist.strings in Resources */,
+				166B55E619048F6E00F5C650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B55F419048F6E00F5C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B560319048F6F00F5C650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166B55C919048F6E00F5C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B55E319048F6E00F5C650 /* AppDelegate.m in Sources */,
+				166B55E919048F6E00F5C650 /* iFindArtists.xcdatamodeld in Sources */,
+				166B55DF19048F6E00F5C650 /* main.m in Sources */,
+				166B55EF19048F6E00F5C650 /* FlipsideViewController.m in Sources */,
+				166B55EC19048F6E00F5C650 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166B55F219048F6E00F5C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166B560519048F6F00F5C650 /* iFindArtistsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166B55FD19048F6F00F5C650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166B55CC19048F6E00F5C650 /* iFindArtists */;
+			targetProxy = 166B55FC19048F6F00F5C650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166B55DB19048F6E00F5C650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166B55DC19048F6E00F5C650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		166B55E419048F6E00F5C650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166B55E519048F6E00F5C650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		166B560119048F6F00F5C650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166B560219048F6F00F5C650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166B560619048F6F00F5C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		166B560719048F6F00F5C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166B560919048F6F00F5C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
+				INFOPLIST_FILE = "iFindArtists/iFindArtists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		166B560A19048F6F00F5C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
+				INFOPLIST_FILE = "iFindArtists/iFindArtists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		166B560C19048F6F00F5C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFindArtists.app/iFindArtists";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iFindArtistsTests/iFindArtistsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		166B560D19048F6F00F5C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFindArtists.app/iFindArtists";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
+				INFOPLIST_FILE = "iFindArtistsTests/iFindArtistsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166B55C819048F6E00F5C650 /* Build configuration list for PBXProject "iFindArtists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B560619048F6F00F5C650 /* Debug */,
+				166B560719048F6F00F5C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166B560819048F6F00F5C650 /* Build configuration list for PBXNativeTarget "iFindArtists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B560919048F6F00F5C650 /* Debug */,
+				166B560A19048F6F00F5C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166B560B19048F6F00F5C650 /* Build configuration list for PBXNativeTarget "iFindArtistsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166B560C19048F6F00F5C650 /* Debug */,
+				166B560D19048F6F00F5C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		166B55E719048F6E00F5C650 /* iFindArtists.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				166B55E819048F6E00F5C650 /* iFindArtists.xcdatamodel */,
+			);
+			currentVersion = 166B55E819048F6E00F5C650 /* iFindArtists.xcdatamodel */;
+			path = iFindArtists.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 166B55C519048F6E00F5C650 /* Project object */;
+}
