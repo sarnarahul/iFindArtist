@@ -5,6 +5,8 @@
 //  Created by Rahul Sarna on 05/05/14.
 //  Copyright (c) 2014 Rahul Sarna. All rights reserved.
 //
+//  http://www.appcoda.com/ios7-programming-ibeacons-tutorial/
+//
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>

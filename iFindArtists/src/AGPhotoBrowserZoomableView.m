@@ -4,7 +4,7 @@
 //
 //  Created by Dimitris-Sotiris Tsolis on 24/11/13.
 //  Copyright (c) 2013 Andrea Giavatto. All rights reserved.
-//
+//  https://github.com/andreagiavatto/AGPhotoBrowser/blob/master/LICENSE.md
 
 #import "AGPhotoBrowserZoomableView.h"
 

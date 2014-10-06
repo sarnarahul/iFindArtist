@@ -4,7 +4,7 @@
 //
 //  Created by Rahul Sarna on 05/05/14.
 //  Copyright (c) 2014 Rahul Sarna. All rights reserved.
-//
+//  http://www.appcoda.com/ios7-programming-ibeacons-tutorial/
 
 #import "ReceiveBeaconViewController.h"
 
@@ -31,7 +31,7 @@
     
     // Setup a new region with that UUID and same identifier as the broadcasting beacon
     self.myBeaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid
-                                                             identifier:@"com.appcoda.testregion"];
+                                                             identifier:@"com.autokrat.testregion"];
     
     // Tell location manager to start monitoring for the beacon region
     [self.locationManager startMonitoringForRegion:self.myBeaconRegion];
