@@ -19,8 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    MainViewController *controller = (MainViewController *)self.window.rootViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    
+//    MainViewController *controller = (MainViewController *)self.window.rootViewController;
+//    controller.managedObjectContext = self.managedObjectContext;
+    
+    
+    
     return YES;
 }
 							
@@ -137,6 +141,13 @@
     }    
     
     return _persistentStoreCoordinator;
+}
+
+#pragma mark - context
+
++(NSManagedObjectContext *) context
+{
+    return [(AppDelegate *)[UIApplication sharedApplication].delegate managedObjectContext];
 }
 
 #pragma mark - Application's Documents directory

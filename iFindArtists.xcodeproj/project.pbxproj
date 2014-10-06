@@ -25,6 +25,26 @@
 		166B55FB19048F6E00F5C650 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166B55D619048F6E00F5C650 /* CoreData.framework */; };
 		166B560319048F6F00F5C650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166B560119048F6F00F5C650 /* InfoPlist.strings */; };
 		166B560519048F6F00F5C650 /* iFindArtistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B560419048F6F00F5C650 /* iFindArtistsTests.m */; };
+		166B561E19058C4300F5C650 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B561D19058C4300F5C650 /* FlickrFetcher.m */; };
+		166B56291905954800F5C650 /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56261905954800F5C650 /* Photo+Flickr.m */; };
+		166B562A1905954800F5C650 /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56281905954800F5C650 /* Photographer+Create.m */; };
+		166B562C1905A4ED00F5C650 /* flickrcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 166B562B1905A4ED00F5C650 /* flickrcolor.png */; };
+		166B562F1905B38D00F5C650 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B562E1905B38D00F5C650 /* CustomTableViewCell.m */; };
+		166B56321905B50500F5C650 /* PhotographerCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56311905B50500F5C650 /* PhotographerCDTVC.m */; };
+		166B56351905B52000F5C650 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56341905B52000F5C650 /* CoreDataTableViewController.m */; };
+		166B56381905B66600F5C650 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56371905B66600F5C650 /* Photo.m */; };
+		166B563B1905B66600F5C650 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B563A1905B66600F5C650 /* Photographer.m */; };
+		166B563E1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B563D1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.m */; };
+		166B56541905F4B000F5C650 /* AGPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B564A1905F4B000F5C650 /* AGPhotoBrowserCell.m */; };
+		166B56551905F4B000F5C650 /* AGPhotoBrowserOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B564F1905F4B000F5C650 /* AGPhotoBrowserOverlayView.m */; };
+		166B56561905F4B000F5C650 /* AGPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56511905F4B000F5C650 /* AGPhotoBrowserView.m */; };
+		166B56571905F4B000F5C650 /* AGPhotoBrowserZoomableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166B56531905F4B000F5C650 /* AGPhotoBrowserZoomableView.m */; };
+		16F490A11917429700483215 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F490A01917429700483215 /* CoreDataHelper.m */; };
+		16F490A41917692F00483215 /* BroadcastBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F490A31917692F00483215 /* BroadcastBeaconViewController.m */; };
+		16F490A61917696700483215 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F490A51917696700483215 /* CoreBluetooth.framework */; };
+		16F490A81917696E00483215 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F490A71917696E00483215 /* CoreLocation.framework */; };
+		16F490AC19176B5100483215 /* ReceiveBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F490AB19176B5100483215 /* ReceiveBeaconViewController.m */; };
+		16F490B019178A3400483215 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F490AF19178A3400483215 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +81,47 @@
 		166B560019048F6F00F5C650 /* iFindArtistsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFindArtistsTests-Info.plist"; sourceTree = "<group>"; };
 		166B560219048F6F00F5C650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		166B560419048F6F00F5C650 /* iFindArtistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFindArtistsTests.m; sourceTree = "<group>"; };
+		166B561B19058C4300F5C650 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		166B561C19058C4300F5C650 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		166B561D19058C4300F5C650 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		166B56251905954800F5C650 /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
+		166B56261905954800F5C650 /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
+		166B56271905954800F5C650 /* Photographer+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		166B56281905954800F5C650 /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
+		166B562B1905A4ED00F5C650 /* flickrcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickrcolor.png; sourceTree = "<group>"; };
+		166B562D1905B38D00F5C650 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		166B562E1905B38D00F5C650 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		166B56301905B50500F5C650 /* PhotographerCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotographerCDTVC.h; sourceTree = "<group>"; };
+		166B56311905B50500F5C650 /* PhotographerCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotographerCDTVC.m; sourceTree = "<group>"; };
+		166B56331905B52000F5C650 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		166B56341905B52000F5C650 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		166B56361905B66600F5C650 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		166B56371905B66600F5C650 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		166B56391905B66600F5C650 /* Photographer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		166B563A1905B66600F5C650 /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		166B563C1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByPhotographerCDTVC.h; sourceTree = "<group>"; };
+		166B563D1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosByPhotographerCDTVC.m; sourceTree = "<group>"; };
+		166B56491905F4B000F5C650 /* AGPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserCell.h; sourceTree = "<group>"; };
+		166B564A1905F4B000F5C650 /* AGPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPhotoBrowserCell.m; sourceTree = "<group>"; };
+		166B564B1905F4B000F5C650 /* AGPhotoBrowserCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserCellProtocol.h; sourceTree = "<group>"; };
+		166B564C1905F4B000F5C650 /* AGPhotoBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserDataSource.h; sourceTree = "<group>"; };
+		166B564D1905F4B000F5C650 /* AGPhotoBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserDelegate.h; sourceTree = "<group>"; };
+		166B564E1905F4B000F5C650 /* AGPhotoBrowserOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserOverlayView.h; sourceTree = "<group>"; };
+		166B564F1905F4B000F5C650 /* AGPhotoBrowserOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPhotoBrowserOverlayView.m; sourceTree = "<group>"; };
+		166B56501905F4B000F5C650 /* AGPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserView.h; sourceTree = "<group>"; };
+		166B56511905F4B000F5C650 /* AGPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPhotoBrowserView.m; sourceTree = "<group>"; };
+		166B56521905F4B000F5C650 /* AGPhotoBrowserZoomableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPhotoBrowserZoomableView.h; sourceTree = "<group>"; };
+		166B56531905F4B000F5C650 /* AGPhotoBrowserZoomableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPhotoBrowserZoomableView.m; sourceTree = "<group>"; };
+		16F4909F1917429700483215 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		16F490A01917429700483215 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		16F490A21917692F00483215 /* BroadcastBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadcastBeaconViewController.h; sourceTree = "<group>"; };
+		16F490A31917692F00483215 /* BroadcastBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadcastBeaconViewController.m; sourceTree = "<group>"; };
+		16F490A51917696700483215 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		16F490A71917696E00483215 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		16F490AA19176B5100483215 /* ReceiveBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveBeaconViewController.h; sourceTree = "<group>"; };
+		16F490AB19176B5100483215 /* ReceiveBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveBeaconViewController.m; sourceTree = "<group>"; };
+		16F490AE19178A3400483215 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		16F490AF19178A3400483215 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +129,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F490A81917696E00483215 /* CoreLocation.framework in Frameworks */,
+				16F490A61917696700483215 /* CoreBluetooth.framework in Frameworks */,
 				166B55D319048F6E00F5C650 /* CoreGraphics.framework in Frameworks */,
 				166B55D719048F6E00F5C650 /* CoreData.framework in Frameworks */,
 				166B55D519048F6E00F5C650 /* UIKit.framework in Frameworks */,
@@ -111,6 +174,8 @@
 		166B55CF19048F6E00F5C650 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				16F490A71917696E00483215 /* CoreLocation.framework */,
+				16F490A51917696700483215 /* CoreBluetooth.framework */,
 				166B55D019048F6E00F5C650 /* Foundation.framework */,
 				166B55D219048F6E00F5C650 /* CoreGraphics.framework */,
 				166B55D419048F6E00F5C650 /* UIKit.framework */,
@@ -123,15 +188,41 @@
 		166B55D819048F6E00F5C650 /* iFindArtists */ = {
 			isa = PBXGroup;
 			children = (
+				166B56481905F4AF00F5C650 /* src */,
+				166B561A19058C4300F5C650 /* FlickrFetcher */,
 				166B55E119048F6E00F5C650 /* AppDelegate.h */,
 				166B55E219048F6E00F5C650 /* AppDelegate.m */,
 				166B55E419048F6E00F5C650 /* Main.storyboard */,
+				16F490AE19178A3400483215 /* SearchViewController.h */,
+				16F490AF19178A3400483215 /* SearchViewController.m */,
+				16F490AA19176B5100483215 /* ReceiveBeaconViewController.h */,
+				16F490AB19176B5100483215 /* ReceiveBeaconViewController.m */,
+				16F490A21917692F00483215 /* BroadcastBeaconViewController.h */,
+				16F490A31917692F00483215 /* BroadcastBeaconViewController.m */,
+				166B562D1905B38D00F5C650 /* CustomTableViewCell.h */,
+				166B562E1905B38D00F5C650 /* CustomTableViewCell.m */,
 				166B55EA19048F6E00F5C650 /* MainViewController.h */,
 				166B55EB19048F6E00F5C650 /* MainViewController.m */,
 				166B55ED19048F6E00F5C650 /* FlipsideViewController.h */,
 				166B55EE19048F6E00F5C650 /* FlipsideViewController.m */,
 				166B55F019048F6E00F5C650 /* Images.xcassets */,
 				166B55E719048F6E00F5C650 /* iFindArtists.xcdatamodeld */,
+				166B56391905B66600F5C650 /* Photographer.h */,
+				166B563A1905B66600F5C650 /* Photographer.m */,
+				166B56361905B66600F5C650 /* Photo.h */,
+				166B56371905B66600F5C650 /* Photo.m */,
+				166B56301905B50500F5C650 /* PhotographerCDTVC.h */,
+				166B56311905B50500F5C650 /* PhotographerCDTVC.m */,
+				166B563C1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.h */,
+				166B563D1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.m */,
+				166B56251905954800F5C650 /* Photo+Flickr.h */,
+				166B56261905954800F5C650 /* Photo+Flickr.m */,
+				166B56271905954800F5C650 /* Photographer+Create.h */,
+				166B56281905954800F5C650 /* Photographer+Create.m */,
+				166B56331905B52000F5C650 /* CoreDataTableViewController.h */,
+				166B56341905B52000F5C650 /* CoreDataTableViewController.m */,
+				16F4909F1917429700483215 /* CoreDataHelper.h */,
+				16F490A01917429700483215 /* CoreDataHelper.m */,
 				166B55D919048F6E00F5C650 /* Supporting Files */,
 			);
 			path = iFindArtists;
@@ -164,6 +255,35 @@
 				166B560119048F6F00F5C650 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166B561A19058C4300F5C650 /* FlickrFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				166B562B1905A4ED00F5C650 /* flickrcolor.png */,
+				166B561B19058C4300F5C650 /* FlickrAPIKey.h */,
+				166B561C19058C4300F5C650 /* FlickrFetcher.h */,
+				166B561D19058C4300F5C650 /* FlickrFetcher.m */,
+			);
+			path = FlickrFetcher;
+			sourceTree = "<group>";
+		};
+		166B56481905F4AF00F5C650 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				166B56491905F4B000F5C650 /* AGPhotoBrowserCell.h */,
+				166B564A1905F4B000F5C650 /* AGPhotoBrowserCell.m */,
+				166B564B1905F4B000F5C650 /* AGPhotoBrowserCellProtocol.h */,
+				166B564C1905F4B000F5C650 /* AGPhotoBrowserDataSource.h */,
+				166B564D1905F4B000F5C650 /* AGPhotoBrowserDelegate.h */,
+				166B564E1905F4B000F5C650 /* AGPhotoBrowserOverlayView.h */,
+				166B564F1905F4B000F5C650 /* AGPhotoBrowserOverlayView.m */,
+				166B56501905F4B000F5C650 /* AGPhotoBrowserView.h */,
+				166B56511905F4B000F5C650 /* AGPhotoBrowserView.m */,
+				166B56521905F4B000F5C650 /* AGPhotoBrowserZoomableView.h */,
+				166B56531905F4B000F5C650 /* AGPhotoBrowserZoomableView.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +333,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rahul Sarna";
 				TargetAttributes = {
+					166B55CC19048F6E00F5C650 = {
+						DevelopmentTeam = TN6HL26EU6;
+					};
 					166B55F519048F6E00F5C650 = {
 						TestTargetID = 166B55CC19048F6E00F5C650;
 					};
@@ -242,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166B562C1905A4ED00F5C650 /* flickrcolor.png in Resources */,
 				166B55F119048F6E00F5C650 /* Images.xcassets in Resources */,
 				166B55DD19048F6E00F5C650 /* InfoPlist.strings in Resources */,
 				166B55E619048F6E00F5C650 /* Main.storyboard in Resources */,
@@ -266,8 +390,25 @@
 				166B55E319048F6E00F5C650 /* AppDelegate.m in Sources */,
 				166B55E919048F6E00F5C650 /* iFindArtists.xcdatamodeld in Sources */,
 				166B55DF19048F6E00F5C650 /* main.m in Sources */,
+				166B562A1905954800F5C650 /* Photographer+Create.m in Sources */,
+				166B56381905B66600F5C650 /* Photo.m in Sources */,
+				166B56561905F4B000F5C650 /* AGPhotoBrowserView.m in Sources */,
+				166B563E1905BD2A00F5C650 /* PhotosByPhotographerCDTVC.m in Sources */,
+				166B56321905B50500F5C650 /* PhotographerCDTVC.m in Sources */,
+				16F490B019178A3400483215 /* SearchViewController.m in Sources */,
+				16F490A41917692F00483215 /* BroadcastBeaconViewController.m in Sources */,
+				16F490AC19176B5100483215 /* ReceiveBeaconViewController.m in Sources */,
+				166B562F1905B38D00F5C650 /* CustomTableViewCell.m in Sources */,
+				166B56351905B52000F5C650 /* CoreDataTableViewController.m in Sources */,
 				166B55EF19048F6E00F5C650 /* FlipsideViewController.m in Sources */,
+				166B56291905954800F5C650 /* Photo+Flickr.m in Sources */,
+				166B561E19058C4300F5C650 /* FlickrFetcher.m in Sources */,
+				16F490A11917429700483215 /* CoreDataHelper.m in Sources */,
+				166B563B1905B66600F5C650 /* Photographer.m in Sources */,
+				166B56551905F4B000F5C650 /* AGPhotoBrowserOverlayView.m in Sources */,
+				166B56571905F4B000F5C650 /* AGPhotoBrowserZoomableView.m in Sources */,
 				166B55EC19048F6E00F5C650 /* MainViewController.m in Sources */,
+				166B56541905F4B000F5C650 /* AGPhotoBrowserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +533,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
 				INFOPLIST_FILE = "iFindArtists/iFindArtists-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +549,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFindArtists/iFindArtists-Prefix.pch";
 				INFOPLIST_FILE = "iFindArtists/iFindArtists-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -472,6 +619,7 @@
 				166B560A19048F6F00F5C650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166B560B19048F6F00F5C650 /* Build configuration list for PBXNativeTarget "iFindArtistsTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +628,7 @@
 				166B560D19048F6F00F5C650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

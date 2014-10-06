@@ -6,18 +6,24 @@
 //  Copyright (c) 2014 Rahul Sarna. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PhotographerCDTVC.h"
 
 @class FlipsideViewController;
 
-@protocol FlipsideViewControllerDelegate
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
-@end
+//@protocol FlipsideViewControllerDelegate
+//- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
+//@end
 
-@interface FlipsideViewController : UIViewController
+@interface FlipsideViewController : PhotographerCDTVC
 
-@property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
+//@property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
 
-- (IBAction)done:(id)sender;
+@property (strong, nonatomic) NSManagedObjectContext *context;
+
+//@property (strong, nonatomic) NSArray *photos;
+
+@property (strong, nonatomic) NSString *check;
+
+//- (IBAction)done:(id)sender;
 
 @end
