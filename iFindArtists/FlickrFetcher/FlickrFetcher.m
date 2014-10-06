@@ -7,8 +7,6 @@
 
 #define FLICKR_PLACE_ID @"place_id"
 
-//https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=b1b32c81a332014025dc13b4b493995d&text=stony+brook&format=rest
-
 @implementation FlickrFetcher
 
 
