@@ -35,9 +35,8 @@ I used a lot of help from various websites and have quoted them inside the code 
 
 Had edited parts of AGPhotobrowser to workaround some issues displaying photos in sync (by loading it from Flickr in different thread and pass it to main thread)
 
-For Sharing used this piece of code
+For Sharing used: UIActivityViewController 
 
-'''    UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:itemsToShare applicationActivities:nil];'''
 ![Alt text](/images/find6.png?raw=true)
 
 ##Implemented the sharing button in AGPhotobrowser using native API to call all the sharing and saving options
